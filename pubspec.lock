@@ -65,46 +65,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.10.0"
-  audio_service:
-    dependency: "direct main"
-    description:
-      name: audio_service
-      sha256: "7e86d7ce23caad605199f7b25e548fe7b618fb0c150fa0585f47a910fe7e7a67"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.18.9"
-  audio_service_platform_interface:
-    dependency: transitive
-    description:
-      name: audio_service_platform_interface
-      sha256: "2c3a1d52803931e836b9693547a71c0c3585ad54219d2214219ed5cfcc3c1af4"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.0"
-  audio_service_web:
-    dependency: transitive
-    description:
-      name: audio_service_web
-      sha256: "523e64ddc914c714d53eec2da85bba1074f08cf26c786d4efb322de510815ea7"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
-  audio_session:
-    dependency: transitive
-    description:
-      name: audio_session
-      sha256: e4acc4e9eaa32436dfc5d7aed7f0a370f2d7bb27ee27de30d6c4f220c2a05c73
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.13"
-  audio_video_progress_bar:
-    dependency: "direct main"
-    description:
-      name: audio_video_progress_bar
-      sha256: "38d8efe20cd0ff2bfad648396ae3d4ba6f8058b7d8b6ee6cb26e3245eda58ddd"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
   awesome_card:
     dependency: "direct main"
     description:
@@ -113,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.7"
+  back_button_interceptor:
+    dependency: transitive
+    description:
+      name: back_button_interceptor
+      sha256: e47660f2178a4392eb72001f9594d3fdcb5efde93e59d2819d61fda499e781c8
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -217,6 +185,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
+  charcode:
+    dependency: transitive
+    description:
+      name: charcode
+      sha256: fb98c0f6d12c920a02ee2d998da788bca066ca5f148492b7085ee23372b12306
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.1"
   charts_common:
     dependency: transitive
     description:
@@ -322,6 +298,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  credit_card_type_detector:
+    dependency: transitive
+    description:
+      name: credit_card_type_detector
+      sha256: e49d8ce0e76969093982ed9c920f2204bd34e41ddbcaf4589d999af6dc00a3e4
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  credit_card_validator:
+    dependency: transitive
+    description:
+      name: credit_card_validator
+      sha256: "90a38c5764dee7b4323cbed55118e09d0fb7bd72db3db5ccade4ac07bf475f2d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   cross_file:
     dependency: transitive
     description:
@@ -370,6 +362,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.8"
+  device_info:
+    dependency: transitive
+    description:
+      name: device_info
+      sha256: f4a8156cb7b7480d969cb734907d18b333c8f0bc0b1ad0b342cdcecf30d62c48
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
+  device_info_platform_interface:
+    dependency: transitive
+    description:
+      name: device_info_platform_interface
+      sha256: b148e0bf9640145d09a4f8dea96614076f889e7f7f8b5ecab1c7e5c2dbc73c1b
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   devicelocale:
     dependency: "direct main"
     description:
@@ -410,6 +418,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
+  easy_paypal:
+    dependency: "direct main"
+    description:
+      name: easy_paypal
+      sha256: dc30bdeaba3648df776ebf74b34acadf30c3677b6555fff63973cc9ae0d20cea
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   encrypt:
     dependency: transitive
     description:
@@ -870,6 +886,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  flutter_slidable:
+    dependency: transitive
+    description:
+      name: flutter_slidable
+      sha256: c7607eb808cdef19c8468246e95a133308aeaeb3971cdd9edfb9d5e31cedfbe9
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   flutter_spinkit:
     dependency: "direct main"
     description:
@@ -886,6 +910,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.2"
+  flutter_stripe:
+    dependency: "direct main"
+    description:
+      name: flutter_stripe
+      sha256: f6e2a01c499f4b4db65e80fbed732ecfe602ec0e67bdcb3d6d5a4e02f807a28f
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
   flutter_svg:
     dependency: "direct main"
     description:
@@ -1281,6 +1313,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.6.2"
+  in_app_purchase:
+    dependency: "direct main"
+    description:
+      name: in_app_purchase
+      sha256: af00db44f0314eda24f5e7ff18a6b445ab95e11fcf49c53e4b7c6bef005eeecf
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.5"
+  in_app_purchase_android:
+    dependency: transitive
+    description:
+      name: in_app_purchase_android
+      sha256: "8d24e7141d5da4e239045438cb990b98fe8fd3e8de6884fbc76ff4ecec30caf5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.5+4"
+  in_app_purchase_platform_interface:
+    dependency: transitive
+    description:
+      name: in_app_purchase_platform_interface
+      sha256: ba5d4d7059ba512907382dce363eabab53c0826ecb23cfb40c58cec6141ea105
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.3"
+  in_app_purchase_storekit:
+    dependency: transitive
+    description:
+      name: in_app_purchase_storekit
+      sha256: "3c73cbebff4365fbb0bef182f35b07e45087f598378f5b676f5825145d5bdbdb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.6+3"
   infinite_carousel:
     dependency: "direct main"
     description:
@@ -1362,30 +1426,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.0.4"
-  just_audio:
-    dependency: "direct main"
-    description:
-      name: just_audio
-      sha256: "7a5057a4d05c8f88ee968cec6fdfe1015577d5184e591d5ac15ab16d8f5ecb17"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.31"
-  just_audio_platform_interface:
-    dependency: transitive
-    description:
-      name: just_audio_platform_interface
-      sha256: eff112d5138bea3ba544b6338b1e0537a32b5e1425e4d0dc38f732771cda7c84
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.2.0"
-  just_audio_web:
-    dependency: transitive
-    description:
-      name: just_audio_web
-      sha256: "89d8db6f19f3821bb6bf908c4bfb846079afb2ab575b783d781a6bf119e3abaf"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.7"
   libphonenumber_platform_interface:
     dependency: transitive
     description:
@@ -1514,6 +1554,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
+  mask_text_input_formatter:
+    dependency: transitive
+    description:
+      name: mask_text_input_formatter
+      sha256: "19bb7809c3c2559277e95521b3ee421e1409eb2cc85efd2feb191696c92490f4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.0"
   matcher:
     dependency: transitive
     description:
@@ -1542,8 +1590,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "60189b5856cdc28588807152cd10cf63d17b647f"
-      resolved-ref: "60189b5856cdc28588807152cd10cf63d17b647f"
+      ref: "57ad626ed8621b70de485c2ba0798f2ab153bc4e"
+      resolved-ref: "57ad626ed8621b70de485c2ba0798f2ab153bc4e"
       url: "https://github.com/inspireui/midtrans_sdk"
     source: git
     version: "0.3.4"
@@ -1572,6 +1620,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.0"
+  myfatoorah_flutter:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: c26ff9ba6b524f79ea160bb1d65d14fa86668e13
+      resolved-ref: c26ff9ba6b524f79ea160bb1d65d14fa86668e13
+      url: "https://github.com/inspireui/myfatoorah_flutter.git"
+    source: git
+    version: "2.1.14"
   nested:
     dependency: transitive
     description:
@@ -1740,6 +1797,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.3"
+  pay:
+    dependency: "direct main"
+    description:
+      name: pay
+      sha256: "0edf4d43a96971cac312b57a2acb86eacee386509037f58af8b4058a5c21b8bb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+  pay_android:
+    dependency: transitive
+    description:
+      name: pay_android
+      sha256: "13c9b0fd79e6e7afc674f09762e05e9856dd4ace6c315c5e331042ee1c1ea666"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.9"
+  pay_ios:
+    dependency: transitive
+    description:
+      name: pay_ios
+      sha256: "04c12e73d404e69f8a6e3cc0a3261d0b3980007a7bd6a2de2940b856d3de9d4c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
+  pay_platform_interface:
+    dependency: transitive
+    description:
+      name: pay_platform_interface
+      sha256: "12580f960066855d4821c4eaf2ef77093c0b20bce623db33104f76db16642e3b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   paytm_allinonesdk:
     dependency: "direct main"
     description:
@@ -1974,7 +2063,7 @@ packages:
     source: hosted
     version: "0.0.2"
   rxdart:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: rxdart
       sha256: "3f7cb435edd213ee1daea38026f2bd1cd5768f3f1b0fae0f6cd1c5380a091f90"
@@ -2069,6 +2158,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.3"
+  simple_animations:
+    dependency: transitive
+    description:
+      name: simple_animations
+      sha256: "48e065ed7264fa6b3e82450544ecde8ae84ff2aaa00fb39e8a90fc05d608084f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -2194,6 +2291,55 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  stripe_android:
+    dependency: "direct main"
+    description:
+      name: stripe_android
+      sha256: "32cfef01ba3ca027b2100350aa0058de72cdf314ad575cb492aa408adca88557"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.1"
+  stripe_ios:
+    dependency: "direct main"
+    description:
+      name: stripe_ios
+      sha256: "89d51e4357f8769452600591fdfd6c506d7bfd4d58072139b66dcd2b2914433c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  stripe_platform_interface:
+    dependency: "direct main"
+    description:
+      name: stripe_platform_interface
+      sha256: a51317308eeac4c39a718786f0fdd7449974301fd0d48ebbcd161c9057a0a25c
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  stripe_sdk:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "005bf185f9b67bcfc9f853019f3e89c48a1026d6"
+      resolved-ref: "005bf185f9b67bcfc9f853019f3e89c48a1026d6"
+      url: "https://github.com/inspireui/stripe-sdk"
+    source: git
+    version: "5.0.0-nullsafety.1"
+  supercharged:
+    dependency: transitive
+    description:
+      name: supercharged
+      sha256: ab49c848b33e28243f5ce82b976736de17d0852b71d0dfbde53fbb5e2ecca7cb
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
+  supercharged_dart:
+    dependency: transitive
+    description:
+      name: supercharged_dart
+      sha256: cb95edda32eacd27664089700a750120be41daa84aa6cd2aeded46227c16b867
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
   synchronized:
     dependency: transitive
     description:
@@ -2282,6 +2428,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
+  universal_html:
+    dependency: transitive
+    description:
+      name: universal_html
+      sha256: f2e0ff0c4af8e4bbda4d273ca4a11be4055414f478fad5c161609b74790ff696
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.2"
   universal_io:
     dependency: transitive
     description:
